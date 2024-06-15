@@ -1,0 +1,768 @@
+/*
+=======================================================================
+                        media Query
+=======================================================================
+*/
+
+@media screen and (min-width: 1600px) and (max-width: 1799px) {}
+
+@media screen and (min-width: 1400px) and (max-width: 1599px) {
+  html {
+    font-size: 9px;
+  }
+
+  .containerX {
+    margin: 0 10rem !important;
+  }
+
+  .heading_txt {
+    width: 50%;
+  }
+
+  .place_section li {
+    width: 18rem;
+    height: 18rem;
+  }
+
+  .place_section {
+    grid-gap: 3rem;
+  }
+
+  .PlanYourTrip_section {
+    grid-template-columns: auto 350px;
+  }
+
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1399px) {
+  html {
+    font-size: 9px;
+  }
+
+  .containerX {
+    margin: 0 10rem !important;
+  }
+
+  h2 {
+    font-size: 4rem !important;
+
+  }
+
+  .heading_txt {
+    width: 50%;
+  }
+
+  .whereUp_sec {
+    padding: 1.8rem;
+  }
+
+  .Submit_btn {
+    width: 15rem;
+    height: 5rem;
+  }
+
+  .place_section li {
+    width: 17rem;
+    height: 17rem;
+  }
+
+  .place_section {
+    grid-gap: 3rem;
+  }
+
+  .Services_items {
+    grid-gap: 1rem;
+  }
+
+  .International_section {
+    margin-top: 4rem;
+    grid-gap: 4rem;
+  }
+
+  .Coluam1 {
+    gap: 4rem;
+  }
+
+  .Pagination_items {
+    padding: 2rem;
+  }
+
+  .Country_setion {
+    grid-gap: 3rem;
+  }
+
+  .PlanYourTrip_section {
+    grid-template-columns: auto 350px;
+  }
+
+  .From_section {
+    padding: 2rem;
+  }
+
+  .Date_section {
+    padding: 3rem 0;
+  }
+
+  .Information_section {
+    padding: 0;
+  }
+
+  .Information_section li {
+    padding: 3rem 0;
+  }
+
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  html {
+    font-size: 8px;
+  }
+
+  .containerX {
+    margin: 0 8rem !important;
+  }
+
+  h2 {
+    font-size: 3.6rem !important;
+
+  }
+
+  .heading_txt {
+    width: 50%;
+  }
+
+  .whereUp_sec {
+    padding: 1.8rem;
+  }
+
+  .Submit_btn {
+    width: 15rem;
+    height: 5rem;
+  }
+
+  .Scroll_bg {
+    bottom: -26%;
+  }
+
+  .Scroll_bg img {
+    width: 30rem !important;
+
+  }
+
+  .place_section li {
+    width: 15rem;
+    height: 15rem;
+  }
+
+  .place_section {
+    grid-gap: 2rem;
+  }
+
+  h3 {
+    font-size: 2.6rem !important;
+  }
+
+  .secTop_margin {
+    margin-top: 8rem;
+  }
+
+  .International_section {
+    margin-top: 3rem;
+    grid-gap: 2rem;
+  }
+
+  .Coluam1 {
+    gap: 2rem;
+  }
+
+
+  .Pagination_items {
+    padding: 2rem;
+  }
+
+  .Country_setion {
+    grid-gap: 3rem;
+  }
+
+  .PlanYourTrip_section {
+    grid-template-columns: auto 300px;
+  }
+
+  .From_section {
+    padding: 2rem;
+  }
+
+  .Date_section {
+    padding: 3rem 0;
+  }
+
+  .date_items {
+    padding: 0.8rem;
+  }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+  .containerX {
+    margin: 0 8rem !important;
+  }
+
+  h2 {
+    font-size: 3rem !important;
+
+  }
+
+  .heading_txt {
+    width: 60%;
+  }
+
+  .whereUp_sec {
+    padding: 1.8rem;
+  }
+
+  .Submit_btn {
+    width: 12rem;
+    height: 4rem;
+  }
+
+  .Scroll_bg {
+    bottom: -35%;
+  }
+
+  .Scroll_bg img {
+    width: 30rem !important;
+
+  }
+
+  .whereUp_sec ul li {
+    padding-right: 30px;
+  }
+
+  .whereUp_sec ul {
+    gap: 30px;
+  }
+
+  .Services_items {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+  }
+
+  .company_slider {
+    padding: 2rem 0;
+  }
+
+  .place_section li {
+    width: 12rem;
+    height: 12rem;
+  }
+
+  .place_section {
+    grid-gap: 2rem;
+    bottom: 10px;
+  }
+
+  .Clients_Sliders {
+    width: 50%;
+  }
+
+  .OurTrending_section {
+    grid-gap: 2rem;
+    margin-top: 3rem;
+  }
+
+  h3 {
+    font-size: 2rem !important;
+  }
+
+  .secTop_margin {
+    margin-top: 6rem;
+  }
+
+  .Promotion_content button {
+    width: 15rem;
+    height: 4rem;
+  }
+
+  .International_section {
+    margin-top: 2rem;
+    grid-gap: 1.5rem;
+  }
+
+  .Coluam1 {
+    gap: 1.5rem;
+  }
+
+  .imge_content {
+    padding: 1rem;
+  }
+
+  .PlanYourTrip_section {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .Country_setion {
+    grid-gap: 1rem;
+  }
+
+  .Pagination_items {
+    padding: 2rem;
+  }
+
+  .Date_section {
+    padding: 2rem 0;
+  }
+
+  .mian_section {
+    top: -40px;
+  }
+
+  .Date_section p {
+    font-size: 1.6rem;
+  }
+
+  .hero_txt {
+    font-size: 9rem;
+  }
+
+  .Information_section {
+    padding: 0;
+  }
+
+  .Information_section li {
+    padding: 2rem 0;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  html {
+    font-size: 8px;
+  }
+
+  .nav-blacklayer {
+    display: none;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.445);
+    z-index: 2;
+    transition: 0.5s;
+  }
+
+  .NavItems {
+    display: block;
+    position: absolute;
+    background-color: #DF6951;
+    height: 100vh;
+    width: 50%;
+    padding: 2rem;
+    top: 0;
+    left: -50%;
+    transition: 0.6s;
+  }
+
+  .NavItems.active {
+    left: 0;
+  }
+
+  .NavItems li {
+    margin: 3rem 0;
+  }
+
+  .NavItems li::after {
+    background: #ffffff;
+  }
+
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  .containerX {
+    margin: 0 4rem !important;
+  }
+
+  h2 {
+    font-size: 2.2rem !important;
+
+  }
+
+  .Topbar {
+    padding: 1rem 0;
+  }
+
+  .heading_txt {
+    width: 100%;
+  }
+
+  .whereUp_sec {
+    padding: 1.4rem;
+    margin-top: 1rem;
+  }
+
+  .Submit_btn {
+    width: 12rem;
+    height: 4rem;
+  }
+
+  .Scroll_bg {
+    bottom: -45%;
+  }
+
+  .Scroll_bg img {
+    width: 30rem !important;
+
+  }
+
+  .whereUp_sec ul li {
+    padding-right: 20px;
+  }
+
+  .whereUp_sec ul {
+    gap: 20px;
+  }
+
+  .company_slider {
+    padding: 3rem 0;
+  }
+
+  .Services_items {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .secTop_margin {
+    margin-top: 6rem;
+  }
+
+  .OurTrending_section {
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 4rem;
+    margin-top: 2rem;
+  }
+
+  .Clients_Sliders {
+    width: 60%;
+    margin: 0 auto;
+  }
+
+  .International_section {
+    margin-top: 2rem;
+    grid-gap: 1rem;
+  }
+
+  .Coluam1 {
+    gap: 1rem;
+  }
+
+  .imge_content {
+    padding: 1rem;
+  }
+
+
+  .PlanYourTrip_section {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .Country_setion {
+    grid-gap: 1rem;
+  }
+
+  .Pagination_items {
+    padding: 2rem;
+  }
+
+  .Date_section {
+    padding: 2rem 0;
+  }
+
+  .mian_section {
+    top: -40px;
+  }
+
+  .Date_section p {
+    font-size: 1.6rem;
+  }
+
+  .hero_txt {
+    font-size: 6rem;
+  }
+
+  .Country_items {
+    padding: 1rem;
+  }
+
+  .date_items {
+    padding: 0.6rem;
+  }
+
+  .Date_section li {
+    gap: 1rem;
+  }
+
+  .Information_section {
+    padding: 0;
+  }
+
+  .Information_section li {
+    padding: 1rem 0;
+  }
+
+  .Gallery_griditems {
+    grid-template-columns: 162px auto;
+    grid-gap: 1rem;
+  }
+
+  .Gallery_griditems2 {
+    display: grid;
+    grid-template-columns: auto 162px;
+    grid-gap: 1rem;
+    margin-top: 1rem;
+  }
+
+  .item_grid1 div {
+    margin-top: 1rem;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .Our_Romantic {
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 3rem;
+  }
+
+  .place_section {
+    margin-top: 2rem;
+    grid-gap: 2rem;
+    position: inherit;
+  }
+
+  .Promotion_section {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1rem;
+  }
+
+}
+
+@media screen and (max-width: 575px) {
+
+  .NavItems {
+    left: -70%;
+    width: 70%;
+  }
+
+  .containerX {
+    margin: 0 2rem !important;
+  }
+
+  h2 {
+    font-size: 2rem !important;
+  }
+
+  .Topbar {
+    padding: 1rem 0;
+  }
+
+  .heading_txt {
+    width: 100%;
+  }
+
+  .whereUp_sec {
+    padding: 1rem;
+    margin-top: 1rem;
+  }
+
+  .Submit_btn {
+    width: 10rem;
+    height: 4rem;
+  }
+
+  .Scroll_bg {
+    bottom: -45%;
+  }
+
+  .Scroll_bg img {
+    width: 30rem !important;
+
+  }
+
+  .whereUp_sec ul li {
+    padding-right: 10px;
+  }
+
+  .whereUp_sec ul {
+    gap: 10px;
+  }
+
+  .people_imges {
+    margin-top: 2rem;
+    display: block;
+  }
+
+  .Services_items {
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 3rem;
+    margin-top: 3rem;
+  }
+
+  .Services_items li {
+    padding: 2rem;
+  }
+
+  .hero_slider.owl-carousel .item {
+    height: 100vh;
+  }
+
+  .hero_slider.owl-carousel .owl-item img {
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .company_slider {
+    padding: 3rem 0;
+  }
+
+  .secTop_margin {
+    margin-top: 4rem;
+  }
+
+  .place_section {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+  }
+
+  .nav_logo {
+    width: 80px;
+  }
+
+  .Topbar.fix_nav {
+    padding: 1rem 0;
+  }
+
+  .OurTrending_section {
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 4rem;
+    margin-top: 2rem;
+  }
+
+  .Clients_Sliders {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .Clients_Sliders .item {
+    padding: 3rem;
+  }
+
+  .Promotion_content button {
+    width: 15rem;
+    height: 4rem;
+  }
+
+  .box_items {
+    width: 10rem;
+    height: 10rem;
+  }
+
+  .Clients_Sliders.owl-carousel .owl-nav button.owl-next,
+  .Clients_Sliders.owl-carousel .owl-nav button.owl-prev {
+    width: 4rem;
+    height: 4rem;
+  }
+
+  .International_section {
+    margin-top: 2rem;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+  }
+
+  .Vacations_items {
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2rem;
+    margin-top: 3rem;
+  }
+
+  div[role="progressbar"] {
+    --size: 12rem;
+  }
+
+  .progressbar_items p {
+    font-size: 1.4rem;
+  }
+
+  .Coluam1 {
+    gap: 2rem;
+  }
+
+  .imge_content {
+    padding: 1rem;
+  }
+
+  .hero_txt {
+    font-size: 7rem;
+  }
+
+  .video_section {
+    height: 40vh;
+  }
+
+  .PlanYourTrip_section {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .Country_setion {
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 1rem;
+  }
+
+  .Pagination_items {
+    padding: 2rem;
+  }
+
+  .Date_section {
+    padding: 2rem 0;
+    overflow-x: scroll;
+  }
+
+  .mian_section {
+    top: -40px;
+  }
+
+  .Date_section p {
+    font-size: 1.6rem;
+  }
+
+  .hero_txt {
+    font-size: 6rem;
+  }
+
+  .Country_items {
+    padding: 1rem;
+  }
+
+  .date_items {
+    padding: 0.6rem;
+  }
+
+  .Date_section li {
+    gap: 1rem;
+    min-width: 200px;
+  }
+
+  .From_section {
+    padding: 2rem;
+  }
+
+  .Information_section {
+    padding: 0;
+  }
+
+  .Information_section li {
+    padding: 2rem 0;
+  }
+
+  .Gallery_griditems {
+    display: grid;
+    grid-template-columns:repeat(1 , 1fr);
+    grid-gap: 2rem;
+  }
+}
